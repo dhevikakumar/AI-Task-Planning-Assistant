@@ -1,0 +1,24 @@
+{
+  "name": "aitasks-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API for the AItasks productivity assistant",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.14.1"
+  }
+}
